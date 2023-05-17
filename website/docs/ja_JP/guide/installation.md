@@ -99,7 +99,7 @@ boot.img は、[GitHub Release](https://github.com/tiann/KernelSU/releases) か�
 
 `<format>`は純正 boot.img のカーネル圧縮形式を指します。純正の boot.img のカーネル圧縮形式を確認してください。間違った圧縮形式を使うと、ブートループするかもしれません。
 
-::: 情報
+::: info 情報
 1. magiskboot を使えば、元のブートの圧縮形式を知ることができます。もちろん、あなたのデバイスと同じモデルを持つ、より経験豊富な他の人にも聞くこともできます。また、カーネルの圧縮形式は通常変更されないので、ある圧縮形式でうまく起動した場合、後でその形式を試すことも可能です。
 2. Xiaomi デバイスでは通常 `gz` か**無圧縮**が使われます。
 3. Pixel デバイスでは以下の手順に従ってください。
@@ -113,7 +113,7 @@ boot.img は、[GitHub Release](https://github.com/tiann/KernelSU/releases) か�
 fastboot flash boot boot.img
 ```
 
-::: 情報
+::: info 情報
 デバイスが `fastboot boot` をサポートしている場合、まず `fastboot boot.img` を使えば書き込みせずにシステムを起動できます。予期せぬことが起こった場合は、もう一度再起動して起動してください。
 :::
 
